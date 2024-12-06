@@ -21,8 +21,7 @@ class ViewController: UIViewController {
     
     
     private func showPopup() {
-        let popupData = PopupData(height: 300)
-        let popupVC = PopupViewController(popupData: popupData)
+        let popupVC = PopupExampleViewController()
         self.present(popupVC, animated: false)
     }
 
